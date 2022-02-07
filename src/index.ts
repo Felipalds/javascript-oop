@@ -6,7 +6,7 @@ class Helloworld{
     }
 }
 
-const canetaAzul = new Caneta()
-canetaAzul.rabiscar()
+const caneta = new Caneta("Modelo", "Cor")
+console.log(caneta.getModelo())
+console.log(caneta.getColor())
 
-console.log(canetaAzul.cor)

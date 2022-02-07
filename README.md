@@ -31,3 +31,11 @@ Modificadores de visibilidade: "indicam o nível de acesso aos componentes inter
 - '+': público "A classe atual e todas as outras classes"
 - '-': privado "Somente a classe atual"
 - '#': protegido "A classe atual e todas as suas sub-classes"
+
+## Métodos especiais
+- Getter (acessor) <br>
+É o método que retorna valores privados ou protegidos de classes. getMoney, isOpen, getFiles
+- Setter (modificadores)<br>
+É o método que modifica atributos privados ou protegidos de classes. setMoney, setFiles.
+- Constructor (construtor) <br>
+Ao instanciar um objeto, tudo que acontece no método constructor acontecerá automaticamente.
