@@ -3,6 +3,7 @@
 // Jubileu vai deixar na conta poupança, 300 reais, Creuza colocou 500 reais
 // Creuza sacou 100 reais
 
+
 class Bank{
     private bankAccount: string
     private money: number

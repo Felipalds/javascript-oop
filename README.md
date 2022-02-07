@@ -39,3 +39,31 @@ Modificadores de visibilidade: "indicam o nível de acesso aos componentes inter
 É o método que modifica atributos privados ou protegidos de classes. setMoney, setFiles.
 - Constructor (construtor) <br>
 Ao instanciar um objeto, tudo que acontece no método constructor acontecerá automaticamente.
+
+## Encapsulamento
+1. Primeiro pilar da programação orientada a objetos. Não é obrigatório mas é uma boa prática.
+- Proteção (programador - código), padronização (moldes e cápsulas), tornar mudanças invisíveis, facilitar reutilização de código, reduzir efeitos colaterais (bugs).
+- Encapsular: ocultar partes independentes da implementação, permitindo construit partes invisíveis ao mundo exterior.
+- Você faz uma comunicação com a capsula e ela te responderá algo, sem necessariamente saber o que há dentro dela.
+- Os polos de comunicação são as interfaces: "lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com um objeto dessa classe".
+2. Como encapsular?
+- Criar uma interface, com os métodos da sua classe (sem atributos)
+```
+Interface controle remoto:
+    + desligar()
+    + ligar()
+    + maisVolume()
+    + menosVolume()
+    + play()
+    + pause()
+```
+- Todos os métodos são públicos
+- Criar o diagrama da sua classe, com os atributos junto (e privados)
+```
+Classe controle remoto:
+    - volume
+    - ligado
+    - tocando
+    + desligar() ...
+    métodos adicionais
+```
