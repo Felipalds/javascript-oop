@@ -19,8 +19,15 @@ Podemos ter vários objetos advindos de uma mesma forma, um mesmo molde. A canet
 Para classes:
 - *Atributos*: que coisas eu tenho; (ex: modelo, cor, ponta, carga)
 - *Métodos*: que coisas eu faço; (ex: escrever, tampar, pintar)
-- *Estado*: como eu estou agora; (ex: 50% carga, escrevendo)
+- *Estado*: como eu estou agora; (ex: 50% carga, escrevendo) <br>
 Gerar objeto a partir de uma classe se chama *instanciar* <br>
 Classe: "Define os atributos e métodos comuns que serão compartilhados por um objeto".<br>
 Objeto: "É uma instância de uma classe".<br>
 Abstração: se concentrar somente nos atributos essênciais para a criação de uma classe.<br>
+
+## Visibilidade em um objeto
+UML e diagrama de classes: criar moldes e documentação de projetos, classes e objetos. <br>
+Modificadores de visibilidade: "indicam o nível de acesso aos componentes internos de uma classe".
+- '+': público "A classe atual e todas as outras classes"
+- '-': privado "Somente a classe atual"
+- '#': protegido "A classe atual e todas as suas sub-classes"

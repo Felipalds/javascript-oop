@@ -9,4 +9,4 @@ class Helloworld{
 const canetaAzul = new Caneta()
 canetaAzul.rabiscar()
 
-console.log(canetaAzul)
+console.log(canetaAzul.cor)

@@ -1,16 +1,13 @@
-// Esta interface já é usada pela classe, só de ter o mesmo nome
-interface Caneta {
-    modelo: string;
-    cor: string;
-}
 
 class Caneta{
+    public modelo: string
+    public cor: string
     constructor(){
         this.modelo = "Fina"
         this.cor = "Azul"
     }
 
-    rabiscar(){
+    public rabiscar(){
         console.log("Rabiscando")
     }
 }
