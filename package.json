@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-    "bank": "ts-node-dev --respawn --transpile-only src/Bank.ts"
+    "bank": "ts-node-dev --respawn --transpile-only src/Bank.ts",
+    "controle" : "ts-node-dev --respawn --transpile-only src/ControleRemoto.ts"
   },
   "keywords": [],
   "author": "",
