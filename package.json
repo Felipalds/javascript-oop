@@ -8,7 +8,8 @@
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "bank": "ts-node-dev --respawn --transpile-only src/Bank.ts",
     "controle" : "ts-node-dev --respawn --transpile-only src/ControleRemoto.ts",
-    "emoji" : "ts-node-dev --respawn --transpile-only src/ultra-emoji-combat"
+    "emoji" : "ts-node-dev --respawn --transpile-only src/ultra-emoji-combat",
+    "livros" : "ts-node-dev --respawn --transpile-only src/livros"
   },
   "keywords": [],
   "author": "",
