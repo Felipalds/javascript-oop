@@ -22,8 +22,9 @@ Para classes:
 - *Estado*: como eu estou agora; (ex: 50% carga, escrevendo) <br>
 Gerar objeto a partir de uma classe se chama *instanciar* <br>
 Classe: "Define os atributos e métodos comuns que serão compartilhados por um objeto".<br>
-Objeto: "É uma instância de uma classe".<br>
+Objeto: "É uma instância de uma classe". Também pode ser definido como o encapsulamento de estados e comportamentos.<br>
 Abstração: se concentrar somente nos atributos essênciais para a criação de uma classe.<br>
+Em linguagens orientadas a objetos puras, tudo é um objeto, desde os tipos mais básicos, como o String ou o Array <br>
 
 ## Visibilidade em um objeto
 UML e diagrama de classes: criar moldes e documentação de projetos, classes e objetos. <br>
@@ -43,7 +44,7 @@ Ao instanciar um objeto, tudo que acontece no método constructor acontecerá au
 ## Encapsulamento
 1. Primeiro pilar da programação orientada a objetos. Não é obrigatório mas é uma boa prática.
 - Proteção (programador - código), padronização (moldes e cápsulas), tornar mudanças invisíveis, facilitar reutilização de código, reduzir efeitos colaterais (bugs).
-- Encapsular: ocultar partes independentes da implementação, permitindo construit partes invisíveis ao mundo exterior.
+- Encapsular: ocultar partes independentes da implementação, permitindo construir partes invisíveis ao mundo exterior.
 - Você faz uma comunicação com a capsula e ela te responderá algo, sem necessariamente saber o que há dentro dela.
 - Os polos de comunicação são as interfaces: "lista de serviços fornecidos por um componente. É o contato com o mundo exterior, que define o que pode ser feito com um objeto dessa classe".
 2. Como encapsular?
