@@ -1,4 +1,4 @@
-import Caneta from './Caneta'
+import Caneta from './caneta/Caneta'
 
 class Helloworld{
     constructor(){

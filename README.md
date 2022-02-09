@@ -67,3 +67,5 @@ Classe controle remoto:
     + desligar() ...
     métodos adicionais
 ```
+
+## Relacionamento entre classes
