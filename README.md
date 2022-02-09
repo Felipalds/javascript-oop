@@ -78,3 +78,16 @@ Classe controle remoto:
 - Um lutador pode participar de 0..* lutas (0 ou várias), mas uma luta só pode ter * lutadores (não permite ter 0)
 - Podemos usar tipos abstatos (de classes e objetos). Por exemplo: podemos ter o tipo Lutador da classe Lutador
 - Ao criar uma classe que agrega outra classe, podemos usar os métodos públicos da classe agregada (ver método marcarLuta() da classe Luta)
+
+## Herança
+- Classes podem herdar características e comportamentos de outras classes
+- Permite basear uma nova classe na definição de uma outra classe previamente existente
+- Pegamos todos os conceitos de uma classe e criamos outros conceitos para a nova classe
+- A herança será aplicada tanto para as características quanto para os comportamentos
+- Algumas características aparecem em várias classes. Para não repertirmos código, podemos separá-las em uma classe mãe que irá passar para as classes filhas todas essas características
+- A classe progenitora é chamada de superclasse e passará via herança as características para as subclasses
+``` 
+    class Aluno extends Pessoa{
+
+    }
+```
