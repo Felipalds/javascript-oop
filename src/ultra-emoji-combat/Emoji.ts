@@ -37,7 +37,7 @@ export default class Lutador implements ILutador{
     private setNome(nome: string){
         this.nome = nome
     }
-    private getNome(){
+    public getNome(){
       return this.nome
     }
     private setNacionalidade(nacionalidade: string){
@@ -78,7 +78,7 @@ export default class Lutador implements ILutador{
         this.categoria = "Inválido"
       }
     }
-    private getCategoria(){
+    public getCategoria(){
       return this.categoria
     }
     private setVitorias(vitorias: number){

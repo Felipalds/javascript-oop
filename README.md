@@ -69,3 +69,11 @@ Classe controle remoto:
 ```
 
 ## Relacionamento entre classes
+### Agregação (losângulo)
+- "Tem um"
+- Temos uma classe de Lutador e temos uma classe de Luta
+- Diagrama de Entidade de Dados (SQL)
+- Diagrama UML
+- Um lutador pode participar de 0..* lutas (0 ou várias), mas uma luta só pode ter * lutadores (não permite ter 0)
+- Podemos usar tipos abstatos (de classes e objetos). Por exemplo: podemos ter o tipo Lutador da classe Lutador
+- Ao criar uma classe que agrega outra classe, podemos usar os métodos públicos da classe agregada (ver método marcarLuta() da classe Luta)
